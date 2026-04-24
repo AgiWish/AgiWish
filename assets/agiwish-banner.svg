@@ -1,0 +1,77 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AgiWish profile banner</title>
+  <desc id="desc">A graphic banner for AgiWish with the statement AI writes everything, I design the why.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080A10"/>
+      <stop offset="0.44" stop-color="#111827"/>
+      <stop offset="1" stop-color="#2A1408"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="80" y1="70" x2="1120" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="0.46" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="titleFill" x1="220" y1="120" x2="980" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.4" stop-color="#A7F3D0"/>
+      <stop offset="0.72" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-30%" width="140%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.45 0 0 0 0 0.84 0 0 0 0 1 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+
+  <path d="M90 326C232 184 321 171 460 229C585 281 675 94 813 147C934 193 986 309 1110 94" stroke="url(#beam)" stroke-opacity="0.58" stroke-width="2.5"/>
+  <path d="M124 96H349M851 324H1078M164 341H284M932 88H1037" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1"/>
+
+  <g filter="url(#softGlow)">
+    <circle cx="180" cy="272" r="7" fill="#7DD3FC"/>
+    <circle cx="446" cy="229" r="6" fill="#A7F3D0"/>
+    <circle cx="680" cy="116" r="7" fill="#FDE68A"/>
+    <circle cx="861" cy="158" r="5" fill="#FCA5A5"/>
+    <circle cx="1015" cy="248" r="7" fill="#C4B5FD"/>
+  </g>
+
+  <g opacity="0.7">
+    <path d="M172 272L446 229L680 116L861 158L1015 248" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1"/>
+    <path d="M446 229L580 318L861 158" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(86 76)">
+    <rect x="0" y="0" width="198" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="22" y="25" fill="#D1D5DB" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="2">PRODUCT LAB</text>
+  </g>
+
+  <text x="86" y="182" fill="url(#titleFill)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="82" font-weight="900" letter-spacing="1">AgiWish</text>
+  <text x="90" y="236" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="800">AI writes everything.</text>
+  <text x="90" y="276" fill="#A7F3D0" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="800">I design the why.</text>
+
+  <g transform="translate(90 324)">
+    <rect x="0" y="0" width="154" height="30" rx="15" fill="#7DD3FC" fill-opacity="0.12" stroke="#7DD3FC" stroke-opacity="0.45"/>
+    <text x="18" y="20" fill="#BAE6FD" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">PROMPTS</text>
+    <rect x="168" y="0" width="136" height="30" rx="15" fill="#A7F3D0" fill-opacity="0.12" stroke="#A7F3D0" stroke-opacity="0.45"/>
+    <text x="186" y="20" fill="#BBF7D0" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">AGENTS</text>
+    <rect x="318" y="0" width="168" height="30" rx="15" fill="#FDE68A" fill-opacity="0.12" stroke="#FDE68A" stroke-opacity="0.45"/>
+    <text x="336" y="20" fill="#FEF3C7" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700">AI PRODUCTS</text>
+  </g>
+
+  <g transform="translate(770 78)">
+    <rect x="0" y="0" width="340" height="254" rx="22" fill="#05070C" fill-opacity="0.56" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="28" y="48" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="800">operating loop</text>
+    <path d="M30 80H308" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="30" y="116" fill="#93C5FD" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="15">01  intent</text>
+    <text x="30" y="150" fill="#A7F3D0" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="15">02  product taste</text>
+    <text x="30" y="184" fill="#FDE68A" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="15">03  model execution</text>
+    <text x="30" y="218" fill="#FCA5A5" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="15">04  faster loops</text>
+  </g>
+</svg>
