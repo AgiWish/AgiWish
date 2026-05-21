@@ -1,115 +1,100 @@
 <div align="center">
 
-<img src="./assets/agiwish-banner.svg" alt="AgiWish" width="100%" />
+<img src="./assets/agiwish-banner.svg" width="100%" alt="AgiWish" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1200&color=A7F3D0&center=true&vCenter=true&width=620&lines=Technical+AI+Native+PM+%C2%B7+Builder;Java+Engineer+%E2%86%92+AI+Product+Manager;Multi-Agent+%7C+Graph-RAG+%7C+Prompt+Engineering;Build+it.+Ship+it.+Measure+it.)](https://github.com/AgiWish)
+<img src="./assets/terminal.svg" width="720" alt="whoami" />
+
+</div>
 
 <br/>
 
-<!-- ─── Metric Strip ─── -->
+---
+
+### 🗂 Projects
+
 <table>
 <tr>
-<td align="center" width="160">
-<img src="https://img.shields.io/badge/RL_胜率-22%25_→_54%25-3a9e6a?style=flat-square" /><br/>
-<sub>Multi-Agent 平台交付</sub>
+<td width="50%" valign="top">
+
+**[知伴 AI](https://github.com/AgiWish/zhiban-ai)** &nbsp; `iOS · Node.js`
+
+亲密关系 AI 沟通教练。主 Agent 意图识别 → 4 条独立子链路（话术 / 冲突 / 心理 / 倾诉），长期关系记忆模块。GPT-4o 处理截图，DeepSeek-V3 主对话，GPT-4.1 结构化输出。500 份问卷驱动 MVP 优先级。
+
+`Multi-Agent` `GPT-4o` `DeepSeek` `Swift` `Node.js`
+
 </td>
-<td align="center" width="160">
-<img src="https://img.shields.io/badge/报告生成-2h_→_15min-4d8fd4?style=flat-square" /><br/>
-<sub>Graph-RAG 知识库落地</sub>
+<td width="50%" valign="top">
+
+**[MOSS 语音助手](https://github.com/AgiWish/moss-home-ai)** &nbsp; `ESP32-S3 · C++`
+
+本地 AI，数据不走云端。NAS 自部署后端，MOSS 风格四态 UI（待机 / 监听 / 思考 / 说话），Home Assistant 全屋控制，Music Assistant 多房间播放。响应 <500ms。
+
+`ESP32-S3` `LVGL` `C++` `Home Assistant` `WebSocket`
+
 </td>
-<td align="center" width="160">
-<img src="https://img.shields.io/badge/F1_值-68%25_→_83%25-7360c8?style=flat-square" /><br/>
-<sub>Prompt Engineering 攻关</sub>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[MindFlash](https://github.com/AgiWish/mindflash-mac)** &nbsp; `macOS · Swift`
+
+菜单栏语音灵感捕捉。双击 ⌘ 全局唤起，Apple Speech 本地转写，DeepSeek 整理成结构化灵感 / 待办。SwiftData 本地存储，Keychain 管理 API Key，支持 JSON / Markdown 导出。
+
+`Swift` `SwiftUI` `SwiftData` `Apple Speech` `DeepSeek`
+
 </td>
-<td align="center" width="160">
-<img src="https://img.shields.io/badge/用户调研-500份问卷-c8922a?style=flat-square" /><br/>
-<sub>知伴 AI MVP 验证</sub>
+<td width="50%" valign="top">
+
+**[BookBrain](https://github.com/AgiWish/bookbrain)** &nbsp; `Next.js · pgvector`
+
+AI 书签管理器。pgvector 语义搜索 + DeepSeek 自动打标签摘要，知识图谱可视化关联，Chrome 插件一键收藏，Docker 一键部署。
+
+`Next.js` `pgvector` `DeepSeek` `PostgreSQL` `Chrome Extension`
+
 </td>
-<td align="center" width="160">
-<img src="https://img.shields.io/badge/Claude_Skills-20%2B_条-e11d48?style=flat-square" /><br/>
-<sub>生产级工作流库</sub>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Hermes Skills](https://github.com/AgiWish/hermes-skills-zh)** &nbsp; `Claude Code`
+
+20+ 生产级 Claude Code Skills。覆盖研发 / 文档 / 运营等场景，将 AI 工作流从「逐项目定制」变成「平台化复用」。
+
+`Claude Code` `Prompt Engineering` `Shell` `Workflow`
+
+</td>
+<td width="50%" valign="top">
+
+**[AI System Prompts CN](https://github.com/AgiWish/ai-system-prompts-cn)** &nbsp; `Research`
+
+主流大模型 System Prompt 中文解析。隐藏的模型行为规则变成可读的产品材料，帮助 AI PM 理解模型边界。
+
+`LLM Research` `Chinese` `Product Insight`
+
 </td>
 </tr>
 </table>
 
-</div>
+---
 
-<br/>
-
-## 🗂️ Projects
-
-<div align="center">
-
-| | 项目 | 一句话 |
-|:---:|:---|:---|
-| [![](https://img.shields.io/badge/知伴_AI-Multi--Agent_沟通教练-6d28d9?style=for-the-badge)](https://github.com/AgiWish/zhiban-ai) | **iOS · Node.js · GPT-4o · DeepSeek-V3** | 4条独立子链路 + 长期关系记忆，500份问卷验证，三模型分工 |
-| [![](https://img.shields.io/badge/MOSS-ESP32_本地语音助手-0d9488?style=for-the-badge)](https://github.com/AgiWish/moss-home-ai) | **C++ · LVGL · Home Assistant · NAS** | 数据不走云端，全屋智能控制，响应 <500ms |
-| [![](https://img.shields.io/badge/MindFlash-macOS_灵感捕捉-d97706?style=for-the-badge)](https://github.com/AgiWish/mindflash-mac) | **Swift · SwiftUI · Apple Speech · DeepSeek** | 双击 ⌘ 唤起录音，LLM 整理成结构化灵感/待办 |
-| [![](https://img.shields.io/badge/BookBrain-AI_书签大脑-1d4ed8?style=for-the-badge)](https://github.com/AgiWish/bookbrain) | **Next.js · pgvector · Chrome Extension** | 语义搜索 + 自动打标 + 知识图谱可视化 |
-| [![](https://img.shields.io/badge/Hermes_Skills-Claude_Code_技能库-be123c?style=for-the-badge)](https://github.com/AgiWish/hermes-skills-zh) | **Claude Code · Prompt Engineering** | 20+ 生产级 Skills，AI 工作流工程化复用 |
-| [![](https://img.shields.io/badge/AI_Prompts_CN-模型行为研究-374151?style=for-the-badge)](https://github.com/AgiWish/ai-system-prompts-cn) | **Research · 中文解析** | 主流模型 System Prompt 解读，隐藏规则→可读产品材料 |
-
-</div>
-
-<br/>
-
-## 🧰 Stack
-
-**AI 产品**
-
-![](https://img.shields.io/badge/Multi--Agent-架构设计-6d28d9?style=flat-square)
-![](https://img.shields.io/badge/Graph--RAG-全链路-0d9488?style=flat-square)
-![](https://img.shields.io/badge/Prompt_Engineering-评测体系-7360c8?style=flat-square)
-![](https://img.shields.io/badge/Function_Calling-工作流编排-4d8fd4?style=flat-square)
-![](https://img.shields.io/badge/MCP-工具集成-3a9e6a?style=flat-square)
-![](https://img.shields.io/badge/向量数据库-pgvector-1d4ed8?style=flat-square)
-![](https://img.shields.io/badge/知识图谱-Graph_Schema-c8922a?style=flat-square)
-
-**开发**
-
-![](https://img.shields.io/badge/Java-Spring_Boot-c05555?style=flat-square&logo=java&logoColor=white)
-![](https://img.shields.io/badge/Python-数据处理-3776ab?style=flat-square&logo=python&logoColor=white)
-![](https://img.shields.io/badge/Node.js-后端服务-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![](https://img.shields.io/badge/TypeScript-Next.js-3178c6?style=flat-square&logo=typescript&logoColor=white)
-![](https://img.shields.io/badge/Swift-SwiftUI-f05138?style=flat-square&logo=swift&logoColor=white)
-![](https://img.shields.io/badge/C%2B%2B-ESP--IDF_·_LVGL-00599c?style=flat-square&logo=cplusplus&logoColor=white)
-![](https://img.shields.io/badge/Docker-PostgreSQL-2496ed?style=flat-square&logo=docker&logoColor=white)
-
-**工具**
-
-![](https://img.shields.io/badge/Claude_Code-Agent_工作流-cc785c?style=flat-square)
-![](https://img.shields.io/badge/Cursor-AI_辅助开发-000000?style=flat-square)
-![](https://img.shields.io/badge/GPT--4o-多模态-412991?style=flat-square&logo=openai&logoColor=white)
-![](https://img.shields.io/badge/DeepSeek-主对话生成-4096ff?style=flat-square)
-![](https://img.shields.io/badge/Figma-产品设计-f24e1e?style=flat-square&logo=figma&logoColor=white)
-
-<br/>
-
-## ⚡ How I Work
+### 🧰 Stack
 
 ```
-📐 Agent 优先   Claude Code + 自建 Skills 处理 80% 重复工作，工程化而非 vibe coding
-📊 数据驱动     每个产品建评测体系，迭代决策有结构化依据，不靠直觉拍板
-🏠 本地优先     能跑在 NAS 上的不走云端  →  MOSS / BookBrain
-🚀 快速验证     调研数据驱动优先级，先跑通 MVP，再补工程化
+AI 产品  │  Multi-Agent · Graph-RAG · RAG 全链路 · Prompt Engineering
+         │  评测体系设计 · Function Calling · MCP · 工作流编排 · 知识图谱
+─────────┼──────────────────────────────────────────────────────────────
+开  发   │  Java / Spring Boot · Python · Node.js · TypeScript · Next.js
+         │  Swift / SwiftUI · C++ / ESP-IDF · Docker · PostgreSQL / pgvector
+─────────┼──────────────────────────────────────────────────────────────
+工  具   │  Claude Code · Cursor · GPT-4o · DeepSeek · Figma
 ```
 
-<br/>
+---
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AgiWish&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a7f3d0&icon_color=fbbf24&text_color=94a3b8&hide=contribs)](https://github.com/AgiWish)
-&nbsp;
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AgiWish&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a7f3d0&text_color=94a3b8&langs_count=6)](https://github.com/AgiWish)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-📬 `zyhcli@gmail.com` &nbsp;·&nbsp; 💬 WeChat: `AGI_Wish` &nbsp;·&nbsp; 🌐 [agiwish.com](https://agiwish.com)
+📬 `zyhcli@gmail.com` &nbsp;·&nbsp; 💬 WeChat `AGI_Wish` &nbsp;·&nbsp; 🌐 [agiwish.com](https://agiwish.com)
 
 </div>

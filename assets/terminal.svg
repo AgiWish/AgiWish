@@ -1,0 +1,88 @@
+<svg width="720" height="400" viewBox="0 0 720 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="winBg" x1="0" y1="0" x2="0" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Window frame -->
+  <rect width="720" height="400" rx="12" fill="url(#winBg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect width="720" height="38" rx="12" fill="#21262d"/>
+  <rect y="26" width="720" height="12" fill="#21262d"/>
+  <rect y="37" width="720" height="1" fill="#30363d"/>
+
+  <!-- Traffic lights -->
+  <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="19" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="19" r="6" fill="#28c840"/>
+
+  <!-- Tab label -->
+  <text x="360" y="24" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#8b949e" text-anchor="middle">zsh — AgiWish</text>
+
+  <!-- Prompt 1: whoami -->
+  <text x="28" y="76" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#3fb950">❯</text>
+  <text x="44" y="76" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#e6edf3">whoami</text>
+
+  <text x="28" y="100" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#58a6ff">Zhang Yihao</text>
+  <text x="148" y="100" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#8b949e"> · </text>
+  <text x="168" y="100" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#e6edf3">Technical AI Native PM</text>
+  <text x="400" y="100" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#8b949e"> · Builder</text>
+
+  <!-- Prompt 2: ./stats -->
+  <text x="28" y="136" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#3fb950">❯</text>
+  <text x="44" y="136" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#e6edf3">cat ./achievements.json</text>
+
+  <!-- JSON output -->
+  <text x="28" y="162" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">{</text>
+
+  <text x="48" y="183" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#79c0ff">"RL_win_rate"</text>
+  <text x="168" y="183" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">: </text>
+  <text x="183" y="183" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#a5d6ff">"22% → 54%"</text>
+  <text x="300" y="183" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">,   // Multi-Agent 平台交付</text>
+
+  <text x="48" y="204" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#79c0ff">"report_gen"</text>
+  <text x="158" y="204" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">: </text>
+  <text x="173" y="204" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#a5d6ff">"2h → 15min"</text>
+  <text x="284" y="204" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">,  // Graph-RAG 知识库</text>
+
+  <text x="48" y="225" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#79c0ff">"f1_score"</text>
+  <text x="138" y="225" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">:    </text>
+  <text x="173" y="225" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#a5d6ff">"68% → 83%"</text>
+  <text x="284" y="225" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">,  // Prompt Engineering</text>
+
+  <text x="48" y="246" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#79c0ff">"user_research"</text>
+  <text x="188" y="246" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">: </text>
+  <text x="203" y="246" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#a5d6ff">"500份问卷 + 102人复访"</text>
+  <text x="420" y="246" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e"> // 知伴 AI</text>
+
+  <text x="48" y="267" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#79c0ff">"claude_skills"</text>
+  <text x="188" y="267" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">: </text>
+  <text x="203" y="267" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#a5d6ff">"20+ 生产级工作流"</text>
+  <text x="380" y="267" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">   // Hermes Skills</text>
+
+  <text x="28" y="288" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12.5" fill="#8b949e">}</text>
+
+  <!-- Prompt 3: stack -->
+  <text x="28" y="322" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#3fb950">❯</text>
+  <text x="44" y="322" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="13" fill="#e6edf3">echo $STACK</text>
+
+  <text x="28" y="346" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#d2a8ff">Multi-Agent</text>
+  <text x="140" y="346" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#8b949e"> · </text>
+  <text x="158" y="346" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#7ee787">Graph-RAG</text>
+  <text x="250" y="346" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#8b949e"> · </text>
+  <text x="268" y="346" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#79c0ff">Java / Node.js / Swift / C++</text>
+  <text x="520" y="346" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#8b949e"> · </text>
+  <text x="538" y="346" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="12" fill="#ffa657">ESP32</text>
+
+  <!-- Cursor blink -->
+  <rect x="28" y="366" width="8" height="14" fill="#3fb950" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0;0.9" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
