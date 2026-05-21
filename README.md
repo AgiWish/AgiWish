@@ -1,63 +1,67 @@
 <div align="center">
 
-<img src="./assets/agiwish-banner.svg" alt="AgiWish - AI writes everything. I design the why." width="100%" />
-
-<br />
-
-[![知伴 AI](https://img.shields.io/badge/知伴_AI-Multi--Agent_沟通教练-6d28d9?style=flat-square)](https://github.com/AgiWish/zhiban-ai)
-[![MOSS](https://img.shields.io/badge/MOSS-ESP32_本地语音助手-00FFCC?style=flat-square&labelColor=111)](https://github.com/AgiWish/moss-home-ai)
-[![MindFlash](https://img.shields.io/badge/MindFlash-macOS_灵感捕捉-f59e0b?style=flat-square)](https://github.com/AgiWish/mindflash-mac)
-[![BookBrain](https://img.shields.io/badge/BookBrain-AI_书签大脑-3b82f6?style=flat-square)](https://github.com/AgiWish/bookbrain)
+<img src="./assets/agiwish-banner.svg" alt="AgiWish" width="100%" />
 
 </div>
 
 ---
 
-### Technical AI Native PM · Builder
+**Technical AI Native PM · Builder**
 
-Java 全栈工程师出身，现在做 AI 产品经理。  
-不只是写 PRD——自己跑通 Multi-Agent 架构，自己搭 RAG 流水线，自己写固件，自己落地 MVP。
+Java 全栈工程师出身，3 年 AI 产品经理。  
+不只写 PRD——自己搭 Multi-Agent 架构，自己跑 Graph-RAG 全链路，自己写 ESP32 固件，自己落地 MVP。
 
-```
-技术判断力 + 产品品味 + Agent 工作方式 → 比纯 PM 快，比纯工程师懂产品
-```
+> 比纯 PM 更懂技术可行性，比纯工程师更懂产品决策。
+
+**关键交付数字：**
+
+| | |
+|---|---|
+| 🤖 Multi-Agent 平台 | RL 智能体胜率 **22% → 54%**，日均推演 **3次 → 50次** |
+| 📊 Graph-RAG 知识库 | 分析报告生成 **2小时 → 15分钟**，产能提升 **8×** |
+| 🔬 Prompt 工程 | F1 值 **68% → 83%**（技术团队和微软专家都说做不到） |
+| 👥 用户调研 | **500份**问卷 + **102人**复访驱动知伴 AI MVP 优先级决策 |
+| 🛠️ Claude Code Skills | 自研 **20+** 条生产级工作流，覆盖研发/文档/运营 |
+
+---
 
 ## Projects
 
-| 项目 | 方向 | 亮点 |
-|------|------|------|
-| [**知伴 AI**](https://github.com/AgiWish/zhiban-ai) | AI 沟通教练 · iOS + Node.js | Multi-Agent 路由（4条子链路）+ 长期关系记忆，GPT-4o / DeepSeek-V3 / GPT-4.1 三模型分工，500份问卷验证 |
-| [**MOSS 语音助手**](https://github.com/AgiWish/moss-home-ai) | ESP32-S3 本地 AI | 数据不走云端，NAS 自部署，Home Assistant 全屋控制，响应 <500ms |
-| [**MindFlash**](https://github.com/AgiWish/mindflash-mac) | macOS 效率工具 · Swift | 双击 Command 唤起录音，Apple Speech 转写，DeepSeek 整理成结构化灵感/待办 |
-| [**BookBrain**](https://github.com/AgiWish/bookbrain) | AI 书签管理 · Next.js | pgvector 语义搜索 + DeepSeek 自动打标，知识图谱可视化，Chrome 插件 |
-| [**Hermes Skills**](https://github.com/AgiWish/hermes-skills-zh) | Claude Code 技能库 | 20+ 生产级 Skills，覆盖研发/文档/运营场景，AI 工作流工程化复用 |
-| [**AI System Prompts CN**](https://github.com/AgiWish/ai-system-prompts-cn) | 模型行为研究 | 主流模型 System Prompt 中文解析，隐藏规则变可读产品材料 |
+| 项目 | 技术栈 | 一句话 |
+|------|--------|--------|
+| [**知伴 AI**](https://github.com/AgiWish/zhiban-ai) | Multi-Agent · GPT-4o · DeepSeek-V3 · Node.js · Swift | 亲密关系沟通教练，4条独立子链路 + 长期关系记忆，500份问卷验证 |
+| [**MOSS 语音助手**](https://github.com/AgiWish/moss-home-ai) | ESP32-S3 · C++ · LVGL · Home Assistant | 本地 AI，不走云端，NAS 自部署，全屋智能家居控制，响应 <500ms |
+| [**MindFlash**](https://github.com/AgiWish/mindflash-mac) | Swift · SwiftUI · Apple Speech · DeepSeek | macOS 菜单栏语音灵感捕捉，双击 ⌘ 唤起，LLM 整理成结构化待办 |
+| [**BookBrain**](https://github.com/AgiWish/bookbrain) | Next.js · pgvector · DeepSeek · Chrome Extension | AI 书签管理，语义搜索 + 自动打标，知识图谱可视化 |
+| [**Hermes Skills**](https://github.com/AgiWish/hermes-skills-zh) | Claude Code · Markdown · Shell | 20+ 生产级 Claude Code Skills，AI 工作流从「定制」到「复用」 |
+| [**AI System Prompts CN**](https://github.com/AgiWish/ai-system-prompts-cn) | Research · Chinese | 主流模型 System Prompt 中文解析，隐藏规则变可读产品材料 |
 
-## What I Actually Do
+---
 
-```text
-产品侧                          技术侧
-──────────────────────          ──────────────────────
-Multi-Agent 架构设计            Java / Spring Boot 全栈
-RAG 全链路（Graph-RAG）         Swift / SwiftUI macOS/iOS
-Prompt 工程 & 评测体系          Next.js / TypeScript
-用户调研 → 北极星指标            ESP32-S3 固件（C++ / LVGL）
-PRD / BRD / 竞品分析            Docker / PostgreSQL / pgvector
-```
+## Stack
+
+**产品** &nbsp;
+`Multi-Agent` `Graph-RAG` `RAG 全链路` `Prompt Engineering` `评测体系` `Function Calling` `MCP` `工作流编排`
+
+**开发** &nbsp;
+`Java / Spring Boot` `Python` `Node.js` `TypeScript` `Next.js` `Swift / SwiftUI` `C++ / ESP-IDF` `Docker` `pgvector`
+
+**工具** &nbsp;
+`Claude Code` `Cursor` `GPT-4o` `DeepSeek` `Figma`
+
+---
 
 ## How I Work
 
-- **Agent 优先**：用 Claude Code + 自建 Skills 工作流处理 80% 重复工作
-- **数据驱动**：每个产品都建评测体系，结论结构化输出为决策依据
-- **本地优先**：能跑在自己 NAS 上的不走云端（MOSS / BookBrain）
-- **快速验证**：先跑通 MVP，再补工程化——不是 vibe coding，是刻意设计的迭代节奏
+- **Agent 优先** — Claude Code + 自建 Skills 工作流处理 80% 重复工作，不 vibe coding，是工程化设计的迭代节奏
+- **数据驱动** — 每个产品建评测体系，每个迭代决策有结构化依据
+- **本地优先** — 能跑在自己 NAS 上的不走云端（MOSS / BookBrain）
+- **快速验证** — 先跑通 MVP，调研数据驱动优先级，再补工程化
 
 ---
 
 <div align="center">
 
-**AgiWish** · 技术理解力 × 产品品味 × Agent 工作方式
-
-`zyhcli@gmail.com` · WeChat: `AGI_Wish`
+📬 &nbsp;`zyhcli@gmail.com` &nbsp;·&nbsp; WeChat: `AGI_Wish` &nbsp;·&nbsp; 🌐 [agiwish.com](https://agiwish.com)
 
 </div>
