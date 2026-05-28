@@ -95,6 +95,6 @@ AI 产品  │  Multi-Agent · Graph-RAG · RAG 全链路 · Prompt Engineering
 
 <div align="center">
 
-📬 `zyhcli@gmail.com` &nbsp;·&nbsp; 💬 WeChat `AGI_Wish` &nbsp;·&nbsp; 🌐 [agiwish.com](https://agiwish.com)
+📬 `zyhcli@gmail.com` &nbsp;·&nbsp; 💬 WeChat `AgiWish` &nbsp;·&nbsp; 🌐 [agiwish.com](https://agiwish.com)
 
 </div>
